@@ -20,7 +20,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vite build --root . && gh-pages -d dist"
+    "deploy": "vite build --config vite.config.demo.js && gh-pages -d dist-demo"
   },
   "dependencies": {
     "skin3d": "^0.0.12"
