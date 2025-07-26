@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   root: 'demo',
 
-  base: '/my-skin-viewer/', 
+  base: '/CardViewer/', 
   build: {
     outDir: '../dist-demo' 
   }

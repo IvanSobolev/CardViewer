@@ -3,7 +3,6 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   root: 'demo',
-  base: "/minecards-renderer/",
   build: {
     outDir: '../dist',
     emptyOutDir: true,
