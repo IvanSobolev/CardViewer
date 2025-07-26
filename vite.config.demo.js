@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  root: 'examples',
+  root: 'demo',
 
   base: '/my-skin-viewer/', 
   build: {
