@@ -19,12 +19,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build --root . && gh-pages -d dist"
   },
   "dependencies": {
     "skin3d": "^0.0.12"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite": "^7.0.6"
   },
   "keywords": [
@@ -34,6 +36,9 @@
     "collectible",
     "skin3d"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "author": "Bezlikiy",
   "license": "MIT"
 }
