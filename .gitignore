@@ -1,3 +1,6 @@
+dist/
+dist-demo/
+
 # Logs
 logs
 *.log
