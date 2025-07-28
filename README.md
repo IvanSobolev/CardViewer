@@ -5,7 +5,7 @@
 
 Библиотека для отрисовки красивых и интерактивных коллекционных 3D-карточек для проекта **Mincards**.
 
-[**Посмотреть живое демо**]([https://your-username.github.io/minecards-renderer/](https://ivansobolev.github.io/CardViewer/))
+[**Посмотреть живое демо**](https://ivansobolev.github.io/CardViewer/)
 
 ## О проекте
 
