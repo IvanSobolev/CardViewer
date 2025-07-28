@@ -1,23 +1,28 @@
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
+import { copy } from 'vite-plugin-copy';
 
 export default defineConfig({
-  root: 'demo',
   build: {
-    outDir: '../dist',
+    outDir: 'dist',
     emptyOutDir: true,
     lib: {
       entry: resolve(__dirname, 'src/Card.js'),
-      name: 'Cool3DCardViewer',
-      fileName: 'cool-3d-card-viewer',
+      name: 'MinecardsRenderer',
+      fileName: (format) => `minecards-renderer.${format}.js`,
     },
     rollupOptions: {
-      external: ['skin3d'], 
+      external: ['skin3d'],
       output: {
         globals: {
-          skin3d: 'skin3d'
-        }
-      }
-    }
-  }
+          skin3d: 'Skin3D',
+        },
+      },
+    },
+  },
+  plugins: [
+    copy([
+      { src: 'src/card.css', dest: 'dist', rename: 'style.css' }
+    ])
+  ]
 });
