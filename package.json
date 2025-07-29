@@ -1,6 +1,6 @@
 {
   "name": "minecards-renderer",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "A library for displaying interactive 3D collectible cards for Telegram bot Minecrads and their web interface.",
   "type": "module",
   "main": "./dist/minecards-renderer.umd.js",
