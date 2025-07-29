@@ -1,7 +1,9 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  root: '/CardViewer/',
+  root: 'demo',
+  
+  base: '/CardViewer/',
   build: {
     outDir: '../dist-demo',
     emptyOutDir: true,
