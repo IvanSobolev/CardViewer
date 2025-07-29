@@ -1,6 +1,5 @@
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
-import { copy } from 'vite-plugin-copy';
 
 export default defineConfig({
   build: {
@@ -20,9 +19,4 @@ export default defineConfig({
       },
     },
   },
-  plugins: [
-    copy([
-      { src: 'src/card.css', dest: 'dist', rename: 'style.css' }
-    ])
-  ]
 });
