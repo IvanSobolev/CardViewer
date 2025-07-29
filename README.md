@@ -1,5 +1,6 @@
 # Minecards Renderer
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](https://github.com/ivansobolev/CardViewer)
 [![npm version](https://img.shields.io/npm/v/minecards-renderer.svg?style=flat-square)](https://www.npmjs.com/package/minecards-renderer)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
